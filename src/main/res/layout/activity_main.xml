@@ -21,28 +21,32 @@
         android:id="@+id/textView" />
 
     <ToggleButton
-        android:text="Wifi"
+        android:text="Bluetooth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/toggleButton"
         app:layout_anchorGravity="bottom|center_horizontal"
-        android:layout_gravity="bottom|center_horizontal" />
+        android:layout_gravity="bottom|center_horizontal"
+        android:textOff="Bluetooth On" />
 
     <ToggleButton
         android:text="Sound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/toggleButton3"
-        app:layout_anchorGravity="bottom|left"
-        android:layout_gravity="bottom|right" />
+        android:layout_gravity="bottom|right"
+        android:textOff="Sound Off"
+        android:textOn="Sound On" />
 
     <ToggleButton
-        android:text="Bluetooth"
+        android:text="Wifi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/toggleButton2"
         android:layout_gravity="bottom|left"
         android:nestedScrollingEnabled="false"
-        tools:text="Sound" />
+        tools:text="Wifi"
+        android:textOff="Wifi Off"
+        android:textOn="Wifi On" />
 
 </android.support.design.widget.CoordinatorLayout>
